@@ -7,6 +7,8 @@ import SignUp from './Components/Sigin/SignUp';
 import Dashboard from './Components/Dashboard/Dashboard'
 import Project from './Components/Project/Project'
 import Header from './Components/Header/Header'
+import Footercom from './Components/Footer/Footer'
+
 
 const App = () => {
   return (
@@ -22,6 +24,7 @@ const App = () => {
   <Route path='/dashboard' element={<Dashboard/>} />
   <Route path='/project' element={<Project/>} />
 </Routes>
+<Footercom/>
 </BrowserRouter>
  </Fragment>
   )
